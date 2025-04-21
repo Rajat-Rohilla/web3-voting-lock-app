@@ -1,33 +1,40 @@
 # 🗳️ Voting Smart Contract (Deployed on Goerli)
 
-This is a basic Web3 voting dApp built with Solidity and deployed using [Hardhat](https://hardhat.org/). The contract is deployed on the Goerli Testnet and supports basic voting mechanisms, ideal for learning and experimenting with smart contract development and deployment workflows.
+This is a basic Web3 voting dApp built using **Solidity** and deployed with **Hardhat**. The contract is deployed on the **Goerli Testnet** and supports fundamental voting operations, ideal for learning and experimenting with smart contract development and Ethereum workflows.
 
 ---
 
 ## 📦 Project Structure
 
-voting-contract/ ├── contracts/ # Contains the Solidity smart contract │ └── Voting.sol ├── scripts/ # Deployment scripts using ethers.js │ └── deploy.js ├── test/ # Mocha/Chai-based tests (optional for now) ├── .gitignore ├── hardhat.config.js ├── package.json ├── README.md
+# 🗳️ Voting Smart Contract (Deployed on Goerli)
+
+This is a basic Web3 voting dApp built using **Solidity** and deployed with **Hardhat**. The contract is deployed on the **Goerli Testnet** and supports fundamental voting operations, ideal for learning and experimenting with smart contract development and Ethereum workflows.
+
+---
+
+## 📦 Project Structure
+
 
 ---
 
 ## 🚀 Features
 
-- Create a simple voting contract
-- Register candidates and cast votes
-- Retrieve current vote count
-- Secure and transparent logic
-- Deployed on Ethereum Goerli test network
+- Create a simple and secure voting contract  
+- Register candidates and cast votes  
+- Retrieve vote counts  
+- Transparent on-chain logic  
+- Deployed to Ethereum’s Goerli test network  
 
 ---
 
 ## 🔧 Prerequisites
 
-Make sure you have these installed before proceeding:
+Before running the project, make sure you have:
 
-- Node.js (v16+)
-- npm or yarn
-- Hardhat (`npm install --save-dev hardhat`)
-- MetaMask with Goerli ETH (for testing)
+- **Node.js** (v16 or higher)  
+- **npm** or **yarn**  
+- **Hardhat** (`npm install --save-dev hardhat`)  
+- **MetaMask** with Goerli ETH for testing  
 
 ---
 
@@ -35,8 +42,8 @@ Make sure you have these installed before proceeding:
 
 ```bash
 # Clone the repo
-git clone https://github.com/Rajat-Rohilla/web3-voting-lock-app
-cd voting-contract
+git clone https://github.com/Rajat-Rohilla/web3-voting-lock-app.git
+cd web3-voting-lock-app
 
 # Install dependencies
 npm install
