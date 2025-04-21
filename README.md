@@ -35,7 +35,7 @@ Make sure you have these installed before proceeding:
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/voting-contract.git
+git clone https://github.com/Rajat-Rohilla/web3-voting-lock-app
 cd voting-contract
 
 # Install dependencies
